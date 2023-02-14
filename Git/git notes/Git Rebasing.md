@@ -33,6 +33,10 @@ ex:-> how can merge two or more commits.
 - 
   
     git rebase -i HEAD~4
+    
+if we want to  squash after the commits have been pushed to the origin we can use 
+    
+    git push origin master --force to rewrite all the commits at the origin.
 
 
 this command basically squash and meld commit 
